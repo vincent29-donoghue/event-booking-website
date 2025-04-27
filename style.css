@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f7f6;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .hero {
+    background-color: #005d6e;
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  .events {
+    padding: 2rem;
+    background: #ffffff;
+    margin-top: 2rem;
+  }
+  
+  .event-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .event-card {
+    background: #008CBA;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .event-card button {
+    background-color: #ffffff;
+    color: #008CBA;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .event-card button:hover {
+    background-color: #007b8f;
+    color: white;
+  }
+  
+  .booking-form {
+    background: #f8f8f8;
+    padding: 3rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .booking-form input,
+  .booking-form select,
+  .booking-form button {
+    width: 80%;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .booking-form button {
+    background-color: #005d6e;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .booking-form button:hover {
+    background-color: #008CBA;
+  }
+  
+  #success-message {
+    display: none;
+    background: #28a745;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  

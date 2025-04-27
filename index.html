@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Booker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to EventBooker!</h1>
+    <p>Book your favorite events in a few clicks!</p>
+  </section>
+
+  <!-- Upcoming Events -->
+  <section class="events">
+    <h2>Upcoming Events</h2>
+    <div class="event-list">
+      <!-- Event 1 -->
+      <div class="event-card">
+        <h3>Music Festival</h3>
+        <p>June 15, 2025</p>
+        <button class="book-btn" data-event="Music Festival">Book Now</button>
+      </div>
+
+      <!-- Event 2 -->
+      <div class="event-card">
+        <h3>Tech Conference</h3>
+        <p>July 20, 2025</p>
+        <button class="book-btn" data-event="Tech Conference">Book Now</button>
+      </div>
+
+      <!-- Event 3 -->
+      <div class="event-card">
+        <h3>Sports Meet</h3>
+        <p>August 10, 2025</p>
+        <button class="book-btn" data-event="Sports Meet">Book Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form Section -->
+  <section class="booking-form">
+    <h2>Book Your Ticket</h2>
+    <form id="form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <select id="event" required>
+        <option value="">Select Event</option>
+        <option value="Music Festival">Music Festival</option>
+        <option value="Tech Conference">Tech Conference</option>
+        <option value="Sports Meet">Sports Meet</option>
+      </select>
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <!-- Success Message -->
+  <div id="success-message" class="hidden">
+    <h3>Booking Confirmed! 🎉</h3>
+    <p>Your booking is confirmed. We look forward to seeing you!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
