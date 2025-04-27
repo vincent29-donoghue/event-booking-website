@@ -15,7 +15,7 @@ Book your favorite events and experience a seamless, user-friendly interface wit
 _Screenshot of the Event Booking Website_
 
 ## 🖥️ Demo
-👉 [Live Demo](https://rock-paper-scissors-game-ten-phi.vercel.app/
+👉 [Live Demo](https://event-booking-website-beryl.vercel.app/
 
 ## 🛠️ Built With
 - **HTML5** – For the structure of the website
